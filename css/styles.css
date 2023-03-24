@@ -1,0 +1,224 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* HEADING  */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.medium-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.small-heading {
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+.esmall-heading{
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+    padding: 7% 15%; 
+}
+/* ICONS , BUTTON LINKS LINKS  */
+
+.icons{
+    color: #245953;
+    padding-bottom: 2rem;
+    width: 90px;
+}
+.icons:hover {
+    color:#408E91 ;
+} 
+/* BUTTONS  */
+.button-download {
+    margin :5% 0% 5% 3%;
+     
+}
+
+
+.links-white:link , .links-white:visited {
+    text-decoration: none;
+    color: #ffff;
+}
+.links-black:link , .links-black:visited {
+    text-decoration: none;
+    color: #fff;
+}
+.links-black:hover {
+    color: black;
+}
+
+
+
+/* TITLE SECTION */
+
+#title , #other1 { background-color: #408E91;
+         color: #fff;
+}
+#title .container-fluid {
+    padding: 3% 15%;
+}
+
+
+/* navigation bar  */
+
+.navbar  {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+     padding: 0 20px;
+}
+.nav-link {
+    font-size: 1.2rem; 
+    font-weight: lighter;
+}
+.white {
+    color: #fff;
+}
+
+/* title image */
+
+.cats-front-page {
+    width: 25.5rem;
+    transform: rotate(25deg);
+    position: absolute;
+    bottom: 7.5rem;
+    right: 12.5rem;
+
+}
+/* FEATURES PAGE  */
+#features {
+    /* padding-bottom: 5.7rem ; */
+    background-color: #fff;
+    position: relative;
+}
+#features .container-fluid {
+    padding: 7% 10%;
+}   
+
+
+.features-text {
+     width: 50%; 
+     color: #8f8f8f; 
+     font-size: 0.8rem; 
+     margin: auto; 
+} 
+/* TESTIMONIALS                          */
+#testimonials {
+    background-color: #245953;
+    color: #fff;
+}
+.testimonial-image {
+    width: 15%; 
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+/* PRESS SECTION  */
+#press {
+    background-color: #245953;
+} 
+.press-image {
+    
+    width: 200px;
+    padding: 2rem 2rem;
+}
+/* PRICING SECTION  */
+#pricing {
+    margin: 100px;
+}
+.pricing-column {
+    padding: 3% 5%;
+}
+/* CALL TO ACTION SECTION */
+#cta {
+    background-color:#408E91 ;;
+    color: #fff;
+}
+#cta .h3 {
+    width: 60%;
+}
+/* FOOTER SECTION  */
+#footer .icons{
+    padding: 20px 10px;
+}
+#footer {
+    padding: 35px;
+}
+#footer p {
+    padding-top: 10px;
+}
+
+
+/* OTHER PAGE IGNORE THIS!!!! */
+#other2 {
+    margin: 0;
+}
+.column-opps{
+    margin: auto;
+}
+.opps-card {
+   padding: 2%;
+   text-align: center;
+}
+.card-link {
+    color: #408E91;
+}
+.annoy {
+    font-size: xx-small;
+}
+
+/* MEDIA QUERY CSS FOR MORE RESPONSIVENESS */
+
+
+@media (min-width:1201px) {
+    #title h1, button {
+        text-align: left;
+    }
+    
+
+}
+@media (max-width: 1200px) {
+    #title  {
+      text-align: center;
+    } 
+   .cats-front-page {
+      transform: rotate(0deg);
+      width: 20rem;
+      position: static;
+   }   
+  }
+
+@media (max-width:991px) {
+    .features-class {
+        padding: 5.7rem 0 0 0 ;
+    }  
+}  
+@media (max-width:991px) {
+    .column-opps {
+        width: 50%;
+    }
+} 
